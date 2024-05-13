@@ -7,3 +7,7 @@ const nomeUtente = prompt('Scrivi il tuo nome')
 if (invitati.includes(nomeUtente)) {
     console.log ('Puoi entrare')
 }
+
+else {
+    console.log ('Fatti un Giro')
+}
