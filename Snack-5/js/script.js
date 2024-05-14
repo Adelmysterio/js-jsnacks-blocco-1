@@ -5,10 +5,11 @@
 let numbers = [];
 
 for (let i = 1; i <= 6; i++) {
-    let userNumber = Number.parseInt(prompt ('Scrivi un numero'));
+    let userNumber = Number.parseInt(prompt('Scrivi un numero'));
 
     if (userNumber % 2 == 1) {
         numbers.push(userNumber)
     }
-    console.log(numbers)
 }
+
+console.log(numbers)
